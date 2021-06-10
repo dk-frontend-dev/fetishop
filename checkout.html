@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="">
+
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+   <link rel="stylesheet" href="css/style.min.css">
+   
+   <title>FETISHOP</title>
+</head>
+<body>
+<!--TODO hEADER -->
+<header class="header header--sticky">
+
+   <!--TODO! header Content  -->
+   <div class="container">
+   
+      <!--TODO! Header-wrapper -->
+      <div class="header-wrapper">
+   
+         <!-- Selects wrapper -->
+         <div class="selects">
+            <div class="header-select">
+               <a class="select__link select__link--current" href="#">ENG</a>
+               <ul class="select__drop">
+                  <li><a href="#" class="select__link">RUS</a></li>
+                  <li><a href="#" class="select__link">UA</a></li>
+               </ul>
+            </div>
+   
+            <div class="header-select">
+               <a class="select__link select__link--current" href="#">USD</a>
+               <ul class="select__drop">
+                  <li><a href="#" class="select__link">RUB</a></li>
+                  <li><a href="#" class="select__link">EUR</a></li>
+                  <li><a href="#" class="select__link">UAN</a></li>
+               </ul>
+            </div>
+         </div>
+   
+         <a class="header-backet" href="#" aria-label="backet">
+            <svg class="main-header-icon icon svg-backet-dims">
+               <use xlink:href="svgSprite/sprite.svg#backet"></use>
+            </svg>
+         </a>
+   
+         <!-- logo -->
+         <div class="logo">
+            <a href="#" class="logo__link">
+               <svg class="main-header-icon icon icon-logo svg-logo-dims">
+                  <use xlink:href="svgSprite/sprite.svg#logo"></use>
+               </svg>
+            </a>
+         </div>
+   
+         <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
+   
+         <!-- header account-menu -->
+         <div class="account-menu">
+            <a href="#" class="account-menu__link account-menu__link-search">
+               <svg class="main-header-icon icon svg-search-dims">
+                  <use xlink:href="svgSprite/sprite.svg#search"></use>
+               </svg>
+               <span>Search</span>
+            </a>
+            <a href="#" class="account-menu__link ">
+               <svg class="main-header-icon icon svg-user-dims">
+                  <use xlink:href="svgSprite/sprite.svg#user"></use>
+               </svg>
+               <span>Account</span>
+            </a>
+            <a href="#" class="account-menu__link ">
+               <svg class="main-header-icon icon svg-heart-dims">
+                  <use xlink:href="svgSprite/sprite.svg#heart"></use>
+               </svg>
+               <span>Wish list (0)</span>
+            </a>
+            <a href="#" class="account-menu__link">
+               <svg class="main-header-icon icon svg-backet-dims">
+                  <use xlink:href="svgSprite/sprite.svg#backet"></use>
+               </svg>
+               <span>Cart (2)</span>
+            </a>
+         </div>
+      </div>
+   
+      <!-- TODO! header menu -->
+      <div class="header-menu">
+   
+ 
+         <nav class="menu">
+   
+            <button class="menu--active__close">
+               <span></span><span></span>
+            </button>
+   
+            <div>
+               <!-- header account-menu media(891px) -->
+               <div class="account-menu account-menu--media-891">
+                  <a href="#" class="account-menu__link account-menu__link-search">
+                     <svg class="main-header-icon icon svg-search-dims">
+                        <use xlink:href="svgSprite/sprite.svg#search"></use>
+                     </svg>
+                     <span>Search</span>
+                  </a>
+                  <a href="#" class="account-menu__link ">
+                     <svg class="main-header-icon icon svg-user-dims">
+                        <use xlink:href="svgSprite/sprite.svg#user"></use>
+                     </svg>
+                     <span>Account</span>
+                  </a>
+                  <a href="#" class="account-menu__link ">
+                     <svg class="main-header-icon icon svg-heart-dims">
+                        <use xlink:href="svgSprite/sprite.svg#heart"></use>
+                     </svg>
+                     <span>Wish list (0)</span>
+                  </a>
+                  <a href="#" class="account-menu__link">
+                     <svg class="main-header-icon icon svg-backet-dims">
+                        <use xlink:href="svgSprite/sprite.svg#backet"></use>
+                     </svg>
+                     <span>Cart (2)</span>
+                  </a>
+               </div>
+   
+               <ul class="menu__ul">
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Hardness</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Chokers</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Handcruffs</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Bracelets</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Graters</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Masks</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Belts</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Men’s</a>
+                  </li>
+               </ul>
+            </div>
+   
+            <div class="selects select--media-891">
+               <div class="header-select">
+                  <a class="select__link select__link--current" href="#">ENG</a>
+                  <ul class="select__drop">
+                     <li><a href="#" class="select__link">RUS</a></li>
+                     <li><a href="#" class="select__link">UA</a></li>
+                  </ul>
+               </div>
+   
+               <div class="header-select">
+                  <a class="select__link select__link--current" href="#">USD</a>
+                  <ul class="select__drop">
+                     <li><a href="#" class="select__link">RUB</a></li>
+                     <li><a href="#" class="select__link">EUR</a></li>
+                     <li><a href="#" class="select__link">UAN</a></li>
+                  </ul>
+               </div>
+            </div>
+   
+   
+         </nav>
+   
+         <!-- при открытии бургера бади затемняется этим дивом -->
+         <div class="st-overlay"></div>
+      </div>
+   
+   </div>
+
+</header>
+
+<main class="checkout">
+
+   <div class="container">
+      <div class="checkout-wrapper">
+         <div class="checkout__col checkout__fields">
+            <h2 class="title title-left account__title checkout__title checkout-wrapper__title">Checkout</h2>
+
+
+            <h3 class="account__form-delivery checkout__fields-title">contact information</h3>
+            <form action="" class="checkout__fields-form">
+
+               <div class="checkout__fields-form">
+                  <div class="account__form-input-wrap checkout__form-input-wrap">
+                     <label for="inputName" class="account__form-title">First Name</label>
+                     <input id="inputName" type="text" placeholder="First Name" class="authorization-register__input">
+                  </div>
+                  
+                  <div class="account__form-input-wrap checkout__form-input-wrap">
+                     <label for="inputLast" class="account__form-title">Last Name</label>
+                     <input id="inputLast" type="text" placeholder="Last Name" class="authorization-register__input">
+                  </div>
+                  
+                  <div class="account__form-input-wrap checkout__form-input-wrap">
+                     <label for="inputStreet" class="account__form-title">Street</label>
+                     <input id="inputStreet" type="text" placeholder="Street" class="authorization-register__input">
+                  </div>
+                  
+                  <div class="account__form-input-wrap checkout__form-input-wrap">
+                     <label for="inputStreetNumber" class="account__form-title">Street Number</label>
+                     <input id="inputStreetNumber" type="text" placeholder="Street Number" class="authorization-register__input">
+                  </div>
+                  
+                  <div class="account__form-input-wrap checkout__form-input-wrap">
+                     <label for="inputCountry" class="account__form-title">Country</label>
+                  
+                     <div class="product-p__select-wrapper">
+                        <select id="inputCountry" class="product-p__select" name="" id="">
+                           <option value="" disabled selected>Choose Country</option>
+                           <option value="Ukraine">Ukraine</option>
+                           <option value="Russia">Russia</option>
+                        </select>
+                  
+                        <svg class="icon product-p__select-arrow svg-arrow-r-dims">
+                           <use xlink:href="svgSprite/sprite.svg#arrow-r"></use>
+                        </svg>
+                     </div>
+                  </div>
+                  
+                  <div class="account__form-input-wrap checkout__form-input-wrap">
+                     <label for="inputCity" class="account__form-title">City</label>
+                     <input id="inputCity" type="text" placeholder="City" class="authorization-register__input">
+                  </div>                
+                  
+                  <div class="account__form-input-wrap checkout__form-input-wrap">
+                     <label for="inputZip" class="account__form-title">Zip</label>
+                     <input id="inputZip" type="text" placeholder="Zip" class="authorization-register__input">
+                  </div>
+                  
+                  <div class="account__form-input-wrap checkout__form-input-wrap">
+                     <label for="inputPhone" class="account__form-title">Phone Number</label>
+                     <input id="inputPhone" type="text" id="phoneMask" placeholder="+XX (XXX) XXX-XX-XX"
+                        class="account__form-input authorization-register__input">
+                  </div>
+               </div>
+
+               <div class="checkout__more">
+
+                  <div class="checkout__more-wrap checkout__checkbox-wrap">
+                     <label class="checkout__checkbox-label">
+                        <input type="checkbox" class="checkout__checkbox">
+                        Save this Information for next time
+                     </label>
+                  </div>
+
+                  <div class="checkout__more-wrap">
+                     <h3 class="account__form-delivery title title-left">delivery address</h3>
+
+                     <div class="checkout__more-radios">
+
+                        <label class="checkout__checkbox-label checkout__more-radios-label">
+                           <input class="review-popup__radio" name="DeliveryMethod" type="radio">
+                           Nova Poshta
+                        </label>
+
+                        <label class="checkout__checkbox-label checkout__more-radios-label">
+                           <input class="review-popup__radio" name="DeliveryMethod" type="radio">
+                           Pickup
+                        </label>
+
+                        <label class="checkout__checkbox-label checkout__more-radios-label">
+                           <input class="review-popup__radio" name="DeliveryMethod" type="radio">
+                           Delivery to address
+                        </label>
+                        
+                     </div>
+                  </div>
+
+                  <div class="checkout__more-wrap">
+                     <h3 class="account__form-delivery title title-left">Payment method</h3>
+                  
+                     <div class="checkout__more-radios">
+                  
+                        <label class="checkout__checkbox-label checkout__more-radios-label">
+                           <input class="review-popup__radio" name="PaymentMethod" type="radio">
+                           Visa
+                        </label>
+                  
+                        <label class="checkout__checkbox-label checkout__more-radios-label">
+                           <input class="review-popup__radio" name="PaymentMethod" type="radio">
+                           Mastercard
+                        </label>
+                  
+                     </div>
+                  </div>
+
+               </div>
+              
+
+            </form>
+         </div>
+         <div class="checkout__col checkout__backet">
+            <div class="checkout__backet--sticky">
+               <h3 class="account__form-delivery checkout__backet-title checkout__fields-title">2 items are In you Basket</h3>
+
+               <div class="account__info-line"></div>
+
+               <div class="checkout__backet-item">
+                  <div class="checkout__backet-item-img">
+                     <img src="images/checkout-backet__img.jpg" alt="">
+                  </div>
+
+                  <div class="checkout__backet-item-content">
+                     <h3 class="checkout__basket-item-title">
+                        White leather thin collar choker
+                     </h3>
+
+                     <div class="checkout__backet-item-prices">
+                        <div class="checkout__backet-item-price">
+                           <p>175 ₴</p>
+                           <span>+5 bonuses</span>
+                        </div>
+
+                        <button class="checkout__backet-item-btn">delete</button>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="checkout__backet-item">
+                  <div class="checkout__backet-item-img">
+                     <img src="images/checkout-backet__img.jpg" alt="">
+                  </div>
+               
+                  <div class="checkout__backet-item-content">
+                     <h3 class="checkout__basket-item-title">
+                        White leather thin collar choker
+                     </h3>
+               
+                     <div class="checkout__backet-item-prices">
+                        <div class="checkout__backet-item-price">
+                           <p>175 ₴</p>
+                           <span>+5 bonuses</span>
+                        </div>
+               
+                        <button class="checkout__backet-item-btn">delete</button>
+                        
+                     </div>
+                  </div>
+               </div>
+
+               <div class="checkout__backet-full-price-wrap">
+                  <p class="checkout__backet-full-amount">Amount</p>
+                  
+                  <div class="checkout__backet-full-price">
+                     <p>350 ₴</p>
+                     <span>+10 bonuses</span>
+                  </div>
+               </div>
+
+               <a href="#" class="btn-checkout button">checkout</a>
+            </div>
+         </div>
+
+         
+      </div>
+   </div>
+
+</main>
+
+
+
+
+
+
+
+
+
+
+<!--TODO footer -->
+<footer class="footer">
+   <div class="container">
+      <div class="footer-wrapper">
+         <div class="footer-col">
+            <h3 class="footer-col__title">Information</h3>
+            <ul class="footer-col__ul">
+               <li class="footer-col__list"><a href="#" class="footer-col__link">About us</a></li>
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Shipping</a></li>
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Security Policy</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h3 class="footer-col__title">Extras</h3>
+            <ul class="footer-col__ul">
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Individual design</a></li>
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Individual size</a></li>
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Cooperation</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h3 class="footer-col__title">My account</h3>
+            <ul class="footer-col__ul">
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Order History</a></li>
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Wish List</a></li>
+            </ul>
+         </div>
+         <div class="footer-col footer-social">
+            <div class="footer-logo">
+               <a href="#" class="logo__link">
+                  <svg class="footer-icon-logo icon-logo svg-logo-dims">
+                     <use xlink:href="svgSprite/sprite.svg#logo"></use>
+                  </svg>
+               </a>
+            </div>
+            <ul class="footer-col__social">
+               <li class="footer-col__list">
+                  <a href="#" class="footer-social__link" target="_blank">
+                     <svg class="icon service-icon footer-social-icon svg-inst-dims">
+                        <use xlink:href="svgSprite/sprite.svg#inst"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="footer-col__list">
+                  <a href="#" class="footer-social__link" target="_blank">
+                     <svg class="icon service-icon footer-social-icon svg-youtube-dims">
+                        <use xlink:href="svgSprite/sprite.svg#youtube"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="footer-col__list">
+                  <a href="#" class="footer-social__link" target="_blank">
+                     <svg class="icon service-icon footer-social-icon svg-pinterest-dims">
+                        <use xlink:href="svgSprite/sprite.svg#pinterest"></use>
+                     </svg>
+                  </a>
+               </li>
+            </ul>
+            <p class="footer-card">
+               <span>We accept:</span>
+               <img src="images/visa.png" alt="">
+               <img src="images/mastercard.png" alt="">
+            </p>
+         </div>
+      </div>
+   </div>
+</footer>
+
+
+
+<div class="section-search">
+   <div class="section-search__header">
+      <div class="container">
+         <form class="section-search__form" action="">
+            <svg class="icon section-search__icon  svg-search-dims">
+               <use xlink:href="svgSprite/sprite.svg#search"></use>
+            </svg>
+
+            <input type="text" class="section-search__input">
+         </form>
+         <button class="search-remove"></button>
+      </div>
+   </div>
+
+   <div class="section-search__result">
+      <div class="container">
+         <div class="section-search__wrapper">
+            <p class="section-search__result-info"><span class="section-search__result-count">4</span> results</p>
+            <button class="section-search__result-btn">View All</button>
+         </div>
+         <div class="products__wrapper">
+            <div class="products__item bestseller">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-1.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item bestseller">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-1.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item bestseller">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-1.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item bestseller">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-1.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/jquery.inputmask.bundle.min.js"></script>
+<script src='js/swiper-bundle.min.js'></script>
+<script src='js/libs.min.js'></script>
+<script src="js/main.min.js"></script>
+
+<!-- 
+   1. Jquery
+   2. fancybox
+   3. inputMask
+   4. Swiper
+   5. Libs.js (Полифилл для свг, для правильного отображения свг в сафари)
+   6. main js
+ -->
+
+</body>
+</html>

@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="">
+
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+   <link rel="stylesheet" href="css/style.min.css">
+   
+   <title>FETISHOP</title>
+</head>
+<body>
+   
+<!--TODO hEADER -->
+<header class="header header--sticky">
+
+   <!--TODO! header Content  -->
+   <div class="container">
+   
+      <!--TODO! Header-wrapper -->
+      <div class="header-wrapper">
+   
+         <!-- Selects wrapper -->
+         <div class="selects">
+            <div class="header-select">
+               <a class="select__link select__link--current" href="#">ENG</a>
+               <ul class="select__drop">
+                  <li><a href="#" class="select__link">RUS</a></li>
+                  <li><a href="#" class="select__link">UA</a></li>
+               </ul>
+            </div>
+   
+            <div class="header-select">
+               <a class="select__link select__link--current" href="#">USD</a>
+               <ul class="select__drop">
+                  <li><a href="#" class="select__link">RUB</a></li>
+                  <li><a href="#" class="select__link">EUR</a></li>
+                  <li><a href="#" class="select__link">UAN</a></li>
+               </ul>
+            </div>
+         </div>
+   
+         <a class="header-backet" href="#" aria-label="backet">
+            <svg class="main-header-icon icon svg-backet-dims">
+               <use xlink:href="svgSprite/sprite.svg#backet"></use>
+            </svg>
+         </a>
+   
+         <!-- logo -->
+         <div class="logo">
+            <a href="#" class="logo__link">
+               <svg class="main-header-icon icon icon-logo svg-logo-dims">
+                  <use xlink:href="svgSprite/sprite.svg#logo"></use>
+               </svg>
+            </a>
+         </div>
+   
+         <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+         </button>
+   
+         <!-- header account-menu -->
+         <div class="account-menu">
+            <a href="#" class="account-menu__link account-menu__link-search">
+               <svg class="main-header-icon icon svg-search-dims">
+                  <use xlink:href="svgSprite/sprite.svg#search"></use>
+               </svg>
+               <span>Search</span>
+            </a>
+            <a href="#" class="account-menu__link ">
+               <svg class="main-header-icon icon svg-user-dims">
+                  <use xlink:href="svgSprite/sprite.svg#user"></use>
+               </svg>
+               <span>Account</span>
+            </a>
+            <a href="#" class="account-menu__link ">
+               <svg class="main-header-icon icon svg-heart-dims">
+                  <use xlink:href="svgSprite/sprite.svg#heart"></use>
+               </svg>
+               <span>Wish list (0)</span>
+            </a>
+            <a href="#" class="account-menu__link">
+               <svg class="main-header-icon icon svg-backet-dims">
+                  <use xlink:href="svgSprite/sprite.svg#backet"></use>
+               </svg>
+               <span>Cart (2)</span>
+            </a>
+         </div>
+      </div>
+   
+      <!-- TODO! header menu -->
+      <div class="header-menu">
+   
+ 
+         <nav class="menu">
+   
+            <button class="menu--active__close">
+               <span></span><span></span>
+            </button>
+   
+            <div>
+               <!-- header account-menu media(891px) -->
+               <div class="account-menu account-menu--media-891">
+                  <a href="#" class="account-menu__link account-menu__link-search">
+                     <svg class="main-header-icon icon svg-search-dims">
+                        <use xlink:href="svgSprite/sprite.svg#search"></use>
+                     </svg>
+                     <span>Search</span>
+                  </a>
+                  <a href="#" class="account-menu__link ">
+                     <svg class="main-header-icon icon svg-user-dims">
+                        <use xlink:href="svgSprite/sprite.svg#user"></use>
+                     </svg>
+                     <span>Account</span>
+                  </a>
+                  <a href="#" class="account-menu__link ">
+                     <svg class="main-header-icon icon svg-heart-dims">
+                        <use xlink:href="svgSprite/sprite.svg#heart"></use>
+                     </svg>
+                     <span>Wish list (0)</span>
+                  </a>
+                  <a href="#" class="account-menu__link">
+                     <svg class="main-header-icon icon svg-backet-dims">
+                        <use xlink:href="svgSprite/sprite.svg#backet"></use>
+                     </svg>
+                     <span>Cart (2)</span>
+                  </a>
+               </div>
+   
+               <ul class="menu__ul">
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Hardness</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Chokers</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Handcruffs</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Bracelets</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Graters</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Masks</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Belts</a>
+                  </li>
+                  <li class="menu__list">
+                     <a href="#" class="menu__link">Men’s</a>
+                  </li>
+               </ul>
+            </div>
+   
+            <div class="selects select--media-891">
+               <div class="header-select">
+                  <a class="select__link select__link--current" href="#">ENG</a>
+                  <ul class="select__drop">
+                     <li><a href="#" class="select__link">RUS</a></li>
+                     <li><a href="#" class="select__link">UA</a></li>
+                  </ul>
+               </div>
+   
+               <div class="header-select">
+                  <a class="select__link select__link--current" href="#">USD</a>
+                  <ul class="select__drop">
+                     <li><a href="#" class="select__link">RUB</a></li>
+                     <li><a href="#" class="select__link">EUR</a></li>
+                     <li><a href="#" class="select__link">UAN</a></li>
+                  </ul>
+               </div>
+            </div>
+   
+   
+         </nav>
+   
+         <!-- при открытии бургера бади затемняется этим дивом -->
+         <div class="st-overlay"></div>
+      </div>
+   
+   </div>
+
+</header>
+
+
+<!--TODO page product -->
+<main class="single-p padding-pages--200">
+   <div class="container single-p__container">
+
+      <!-- Хлеблые крошки, если хочешь написать через список, (тоесть ul>li>a+svg) то задавай li класс breadcumbs__list  -->
+      <div class="navigation-site">
+         <a class="navigation-site__link" href="#">Home</a>
+         <svg class="icon navigation-site-arrow svg-angle-right-dims">
+            <use xlink:href="svgSprite/sprite.svg#angle-right"></use>
+         </svg>
+         <a class="navigation-site__link" href="#">Choker</a>
+         <svg class="icon navigation-site-arrow svg-angle-right-dims">
+            <use xlink:href="svgSprite/sprite.svg#angle-right"></use>
+         </svg>
+         <p class="navigation-site__text">White Leather thin Collar Choker</p>
+      </div>
+
+
+      <!-- Название продукта -->
+      <h1 class="title single-p__title">White leather thin collar choker</h1>
+
+      <div class="single-p__wrapper">
+         <div class="single-p__col">
+         
+            <!-- TODO! gallery -->
+            <div class="single-p__products">
+
+               <!-- первый слайдер (большой и главный, картинкам задана фиксированная высота, которая резинова (через calc) ) -->
+               <div class="swiper-container singleProduct">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide singleProduct-slide">
+                        <a href="images/product-single.jpg" data-fancybox="singleProductSwiper">
+                           <img src="images/product-single.jpg" alt="" class="single-product__img">
+                        </a>
+                        <span class="singleProduct-sale">sale</span>
+                     </div>
+                     <div class="swiper-slide singleProduct-slide">
+                        <a href="images/product-single.jpg" data-fancybox="singleProductSwiper">
+                           <img src="images/product-single.jpg" alt="" class="single-product__img">
+                        </a>
+                        <span class="singleProduct-sale">sale</span>
+                     </div>
+                     <div class="swiper-slide singleProduct-slide">
+                        <a href="images/product-single.jpg" data-fancybox="singleProductSwiper">
+                           <img src="images/product-single.jpg" alt="" class="single-product__img">
+                        </a>
+                        <span class="singleProduct-sale">sale</span>
+                     </div>
+                     <div class="swiper-slide singleProduct-slide">
+                        <a href="images/product-single.jpg" data-fancybox="singleProductSwiper">
+                           <img src="images/product-single.jpg" alt="" class="single-product__img">
+                        </a>
+                        <span class="singleProduct-sale">sale</span>
+                     </div>
+                  </div>
+               </div>
+         
+               <!-- маленький слайдер -->
+               <div class="swiper-container smallProduct">
+                  <div class="swiper-wrapper">
+                     <img src="images/product-sm-1.jpg" alt="" class="swiper-slide single-product__img-sm">
+                     <img src="images/product-sm-2.jpg" alt="" class="swiper-slide single-product__img-sm">
+                     <img src="images/product-sm-3.jpg" alt="" class="swiper-slide single-product__img-sm">
+                     <img src="images/product-sm-4.jpg" alt="" class="swiper-slide single-product__img-sm">
+                  </div>
+               </div>
+            </div>
+
+            <div class="single-p__comments">
+               <div class="single-p__comments-titles-wrapper">
+                  <h2 class="single-p__m-title">Review <span>(20)</span></h2>
+
+                  <!-- написать отзыв (вызвать попап) -->
+                  <a class="single-p__m-link single-p__m-review button" href="#">Write Review</a>
+               </div>
+
+
+               <!-- комменты -->
+               <div class="single-p__comments-wrapper">
+                  <div class="single-p__comment">
+                     <div class="single-p__comment-header">
+
+                        <div class="single-p__comment-user">
+                           <svg class="icon svg-user-com-dims">
+                              <use xlink:href="svgSprite/sprite.svg#user-com"></use>
+                           </svg>
+                           <h3 class="single-p__comment-user-name">Byer-2</h3>
+                        </div>
+
+                        <p class="single-p__comment-date">18 Sep 2020</p>
+
+                     </div>
+
+                     <div class="single-p__comment-body">
+
+                        <div class="stars single-p__comment-rating">
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                        </div>
+
+                        <p class="single-p__comment-body__text">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare sit lacus porta. At mauris, sed mi arcu lorem
+                           cursus donec. Vulputate tempus id nec nulla augue sapien massa adipiscing nec. Tempus montes, dolor amet, bibendum
+                           dictum molestie metus, pellentesque. Cursus viverra egestas urna, vitae viverra habitant. Maecenas vitae ut.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="single-p__comment">
+                     <div class="single-p__comment-header">
+                  
+                        <div class="single-p__comment-user">
+                           <svg class="icon svg-user-com-dims">
+                              <use xlink:href="svgSprite/sprite.svg#user-com"></use>
+                           </svg>
+                           <h3 class="single-p__comment-user-name">Byer-2</h3>
+                        </div>
+                  
+                        <p class="single-p__comment-date">18 Sep 2020</p>
+                  
+                     </div>
+                  
+                     <div class="single-p__comment-body">
+                  
+                        <div class="stars single-p__comment-rating">
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                        </div>
+                  
+                        <p class="single-p__comment-body__text">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare sit lacus porta. At mauris, sed mi arcu
+                           lorem
+                           cursus donec. Vulputate tempus id nec nulla augue sapien massa adipiscing nec. Tempus montes, dolor amet,
+                           bibendum
+                           dictum molestie metus, pellentesque. Cursus viverra egestas urna, vitae viverra habitant. Maecenas vitae ut.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="single-p__comment">
+                     <div class="single-p__comment-header">
+                  
+                        <div class="single-p__comment-user">
+                           <svg class="icon svg-user-com-dims">
+                              <use xlink:href="svgSprite/sprite.svg#user-com"></use>
+                           </svg>
+                           <h3 class="single-p__comment-user-name">Byer-2</h3>
+                        </div>
+                  
+                        <p class="single-p__comment-date">18 Sep 2020</p>
+                  
+                     </div>
+                  
+                     <div class="single-p__comment-body">
+                  
+                        <div class="stars single-p__comment-rating">
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                           <svg class="icon svg-star-dims">
+                              <use xlink:href="svgSprite/sprite.svg#star"></use>
+                           </svg>
+                        </div>
+                  
+                        <p class="single-p__comment-body__text">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare sit lacus porta. At mauris, sed mi arcu
+                           lorem
+                           cursus donec. Vulputate tempus id nec nulla augue sapien massa adipiscing nec. Tempus montes, dolor amet,
+                           bibendum
+                           dictum molestie metus, pellentesque. Cursus viverra egestas urna, vitae viverra habitant. Maecenas vitae ut.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="single-p__comments__more">
+                     <a class="single-p__comments__more-link" href="#">View more</a>
+                  </div>
+               </div>
+
+            </div>
+         
+         
+         
+         </div>
+         
+
+
+
+         <div class="single-p__col">
+            <div class="single-p__content">
+               <div class="single-p__code">
+                  <p class="single-p__code-text">Product Code: <span>000001212445</span></p>
+
+                  <div class="stars single-p__content-rating" data-smoothScrollTo=".single-p__comments">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+
+                     <!-- при нажатии скроллит к секции с комментами -->
+                     <p class="single-p__content-reviews">20 Review</p>
+                  </div>
+               </div>
+
+               <p class="single-p__content-aviailality">Availability: <span class="fw--300">In Stock</span></p>
+
+               <div class="single-p__content-prices">
+                  <div>
+                     <strong class="single-p__content-price">175 ₴</strong>
+                     <p class="single-p__content-last">200 ₴</p>
+                  </div>
+                  <p class="single-p__content-bonuses">+5 bonuses</p>
+               </div>
+
+               <div class="single-p__content-buttons">
+                  <a class="single-p__content-link-first single-p__content-link button" href="#">add to cart</a>
+                  <div class="single-p__content-social">
+                     <a class="single-p__content-link-second single-p__content-link button" href="#">buy in 1 click</a>
+                     <div class="single-p__content-social__wrapper">
+                        <a href="#" target="_blank">
+                           <svg class="icon product-p__social-icon svg-whatsapp-dims"  aria-label="like this product">
+                              <use xlink:href="svgSprite/sprite.svg#whatsapp"></use>
+                           </svg>
+                        </a>
+                        <a href="#" target="_blank">
+                           <svg class="icon product-p__social-icon svg-viber-dims"  aria-label="like this product">
+                              <use xlink:href="svgSprite/sprite.svg#viber"></use>
+                           </svg>
+                        </a>
+                        <a href="#" target="_blank">
+                           <svg class="icon product-p__social-icon svg-telegram-dims"  aria-label="like this product">
+                              <use xlink:href="svgSprite/sprite.svg#telegram"></use>
+                           </svg>
+                        </a>
+                     </div>
+                     <button onclick="heartActive(this)" class="single-p__content-heart single-p__content-heart--media-576">
+                        <svg class="icon svg-single-heart-dims"  aria-label="like this product">
+                           <use xlink:href="svgSprite/sprite.svg#single-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <button onclick="heartActive(this)" class="single-p__content-heart">
+                     <svg class="icon svg-single-heart-dims"  aria-label="like this product"> 
+                        <use xlink:href="svgSprite/sprite.svg#single-heart"></use>
+                     </svg>
+                  </button>
+               </div>
+
+
+               <!-- у product-p__radios не стоит flex-wrap:wrap, чтоб на всех разрешениях всё было в один ряд. -->
+               <div class="product-p__radios">
+                  <p class="product-p__radios-text">Size: </p>
+
+                  <div class="product-p__radios-sizes">
+                     <input name="inputSize" checked id="OneSize" type="radio" class="product-p__radios-input">
+                     <label for="OneSize" class="product-p__radio product-p__radio-OneSize">One size</label>
+
+                     <input name="inputSize" checked id="xs" type="radio" class="product-p__radios-input">
+                     <label for="xs" class="product-p__radio">xs</label>
+
+                     <input name="inputSize" id="s" type="radio" class="product-p__radios-input">
+                     <label for="s" class="product-p__radio">s</label>
+
+                     <input name="inputSize" id="m" type="radio" class="product-p__radios-input">
+                     <label for="m" class="product-p__radio">m</label>
+
+                     <input name="inputSize" id="l" type="radio" class="product-p__radios-input">
+                     <label for="l" class="product-p__radio">l</label>
+
+                     <input name="inputSize" id="xl" type="radio" class="product-p__radios-input">
+                     <label for="xl" class="product-p__radio">xl</label>
+
+                     <input name="inputSize" id="xxl" type="radio" class="product-p__radios-input">
+                     <label for="xxl" class="product-p__radio">xxl</label>
+                  </div>
+               </div>
+
+               <div class="product-p__colors">
+                  <p class="product-p__radios-text product-p__content-title">Color:</p>
+
+                  <div>
+                     <input name="inputColor" id="red" type="radio" checked class="product-p__radios-input">
+                     <label for="red" class="product-p__radio-color red"></label>
+                     
+                     <input name="inputColor" id="black" type="radio" class="product-p__radios-input">
+                     <label for="black" class="product-p__radio-color black"></label>
+                  </div>
+               </div>
+
+               <div class="product-p__selects">
+                  <label for="selectMaterials" class="product-p__content-title">Materials:</label>
+
+                  <div class="product-p__select-wrapper">
+                     <select id="selectMaterials" class="product-p__select">
+                        <option value="Real leaser (+25 ₴)">Real leaser (+55 ₴)</option>
+                        <option value="Real leaser (+55 ₴)">Real leaser (+75 ₴)</option>
+                        <option value="Real leaser (+75 ₴)">Real leaser (+100 ₴)</option>
+                     </select>
+
+                     <svg class="icon product-p__select-arrow svg-arrow-r-dims">
+                        <use xlink:href="svgSprite/sprite.svg#arrow-r"></use>
+                     </svg>
+                  </div>
+               </div>
+
+               <div class="product-p__selects">
+                  <label for="selectFitting" class="product-p__content-title">Fitting:</label>
+               
+                  <div class="product-p__select-wrapper">
+                     <select id="selectFitting" class="product-p__select">
+                        <option value="Real leaser (+25 ₴)">Real leaser (+55 ₴)</option>
+                        <option value="Real leaser (+55 ₴)">Real leaser (+75 ₴)</option>
+                        <option value="Real leaser (+75 ₴)">Real leaser (+100 ₴)</option>
+                     </select>
+               
+                     <svg class="icon product-p__select-arrow svg-arrow-r-dims">
+                        <use xlink:href="svgSprite/sprite.svg#arrow-r"></use>
+                     </svg>
+                  </div>
+               </div>
+
+               <div class="product-p__numbers product-p__selects">
+
+                  <label for="inputSizeProducts" class="product-p__content-title">Quantity</label>
+
+
+                  <div class="product-p__number-wrapper">
+                     <span class="input-number-decrement"></span>
+                     <input id="inputSizeProducts" class="input-number" type="text" value="1" min="0" max="30">
+                     <span class="input-number-increment"></span>
+                  </div>
+               </div>
+
+               <div class="product-p__content-text">
+                  <h3 class="product-p__content-text__title">shipping</h3>
+                  <p class="product-p__content-text__descr">Shipping&Taxes calculated at Checkout</p>
+               </div>
+
+               <div class="product-p__content-text">
+                  <h3 class="product-p__content-text__title">Description</h3>
+                  <p class="product-p__content-text__descr">The O-Ring White Thin Choker. Truth in simplicity</p>
+
+                  <ul>
+                     <li class="product-p__content-text__list">white faux leather or real leather (on your choice)</li>
+                     <li class="product-p__content-text__list">white faux leather or real leather (on your choice)</li>
+                     <li class="product-p__content-text__list">white faux leather or real leather (on your choice)</li>
+                     <li class="product-p__content-text__list">white faux leather or real leather (on your choice)</li>
+                     <li class="product-p__content-text__list">white faux leather or real leather (on your choice)</li>
+                     <li class="product-p__content-text__list">white faux leather or real leather (on your choice)</li>
+                     <li class="product-p__content-text__list">white faux leather or real leather (on your choice)</li>
+                  </ul>
+               </div>
+
+               <div class="single-p__comments single-p__comments--media-991">
+
+                  <div class="single-p__comments-titles-wrapper">
+                     <h2 class="single-p__m-title">Review <span>(20)</span></h2>
+                     <a class="single-p__m-link single-p__m-review button" href="#">Write Review</a>
+                  </div>
+
+                  <div class="single-p__comments-wrapper">
+                     <div class="single-p__comment">
+                        <div class="single-p__comment-header">
+                     
+                           <div class="single-p__comment-user">
+                              <svg class="icon svg-user-com-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#user-com"></use>
+                              </svg>
+                              <h3 class="single-p__comment-user-name">Byer-2</h3>
+                           </div>
+                     
+                           <p class="single-p__comment-date">18 Sep 2020</p>
+                     
+                        </div>
+                     
+                        <div class="single-p__comment-body">
+                     
+                           <div class="stars single-p__comment-rating">
+                              <svg class="icon svg-star-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#star"></use>
+                              </svg>
+                              <svg class="icon svg-star-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#star"></use>
+                              </svg>
+                              <svg class="icon svg-star-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#star"></use>
+                              </svg>
+                              <svg class="icon svg-star-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#star"></use>
+                              </svg>
+                              <svg class="icon svg-star-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#star"></use>
+                              </svg>
+                           </div>
+                     
+                           <p class="single-p__comment-body__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare sit lacus porta. At mauris, sed mi arcu
+                              lorem
+                              cursus donec. Vulputate tempus id nec nulla augue sapien massa adipiscing nec. Tempus montes, dolor amet,
+                              bibendum
+                              dictum molestie metus, pellentesque. Cursus viverra egestas urna, vitae viverra habitant. Maecenas vitae ut.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="single-p__comment">
+                        <div class="single-p__comment-header">
+                     
+                           <div class="single-p__comment-user">
+                              <svg class="icon svg-user-com-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#user-com"></use>
+                              </svg>
+                              <h3 class="single-p__comment-user-name">Byer-2</h3>
+                           </div>
+                     
+                           <p class="single-p__comment-date">18 Sep 2020</p>
+                     
+                        </div>
+                     
+                        <div class="single-p__comment-body">
+                     
+                           <div class="stars single-p__comment-rating">
+                              <svg class="icon svg-star-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#star"></use>
+                              </svg>
+                              <svg class="icon svg-star-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#star"></use>
+                              </svg>
+                              <svg class="icon svg-star-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#star"></use>
+                              </svg>
+                              <svg class="icon svg-star-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#star"></use>
+                              </svg>
+                              <svg class="icon svg-star-dims">
+                                 <use xlink:href="svgSprite/sprite.svg#star"></use>
+                              </svg>
+                           </div>
+                     
+                           <p class="single-p__comment-body__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare sit lacus porta. At mauris, sed mi arcu
+                              lorem
+                              cursus donec. Vulputate tempus id nec nulla augue sapien massa adipiscing nec. Tempus montes, dolor amet,
+                              bibendum
+                              dictum molestie metus, pellentesque. Cursus viverra egestas urna, vitae viverra habitant. Maecenas vitae ut.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               
+                  <div class="single-p__comments__more">
+                     <a class="single-p__comments__more-link" href="#">View more</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+      <h2 class="title slider-productsItems-title">RELATED PRODUCTS</h2>
+
+
+   </div>
+
+   <div class="product-p__swiper-wrapper container">
+
+      <button class="productsItems-next swiper-button-next">
+         <svg class="icon productsItems-next-icon svg-arrow-r-dims">
+            <use xlink:href="svgSprite/sprite.svg#arrow-r"></use>
+         </svg>
+      </button>
+      <button class="productsItems-prev swiper-button-prev">
+         <svg class="icon productsItems-prev-icon  svg-arrow-l-dims">
+            <use xlink:href="svgSprite/sprite.svg#arrow-r"></use>
+         </svg>
+      </button>
+
+      <div class="swiper-container productsItems">
+     
+         <div class="swiper-wrapper">
+            <div class="products__item sale swiper-slide">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-6.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item sale swiper-slide">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-6.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item sale swiper-slide">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-6.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item sale swiper-slide">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-6.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item sale swiper-slide">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-6.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item sale swiper-slide">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-6.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item sale swiper-slide">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-6.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims svg-star-dims--notActive">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</main>
+
+<div class="review-popup">
+   <div class="review-popup__wrapper">
+      <div class="container">
+         <form action="" class="review-popup__form">
+            <legend class="title review-popup__title">
+               Write a review
+            </legend>
+      
+            <p class="review-popup__text">Your Name<span>*</span></p>
+            <input id="reviewInput" type="text" class="authorization-register__input" placeholder="Enter your Name">
+      
+            <p class="review-popup__text review-popup__text--30">Your Review<span>*</span></p>
+            <textarea id="reviewTextArea" class="review-popup__textarea" cols="15" rows="5" placeholder="Enter text"></textarea>
+      
+            <p class="review-popup__text review-popup__text--30">Your Review<span>*</span></p>
+      
+            <div class="review-popup__radios">
+      
+               <div class="review-popup__radios-wrapper">
+                  <p class="review-popup__radios-text">Bad</p>
+                  <div class="review-popup__radios-wrapper__inputs">
+                     <input class="review-popup__radio" name="reviewRating" type="radio">
+                     <input class="review-popup__radio" name="reviewRating" type="radio">
+                     <input class="review-popup__radio" name="reviewRating" type="radio">
+                     <input class="review-popup__radio" name="reviewRating" type="radio">
+                     <input class="review-popup__radio" name="reviewRating" type="radio">
+                  </div>
+                  <p class="review-popup__radios-text">Good</p>
+               </div>
+      
+               <a href="#" class="review-popup__radios-link button">Write Review</a>
+            </div>
+      
+         </form>
+      </div>
+
+      <button class="search-remove">
+         <span></span>
+         <span></span>
+      </button>
+      
+   </div>
+</div>
+
+
+
+
+
+
+
+
+<!--TODO footer -->
+<footer class="footer">
+   <div class="container">
+      <div class="footer-wrapper">
+         <div class="footer-col">
+            <h3 class="footer-col__title">Information</h3>
+            <ul class="footer-col__ul">
+               <li class="footer-col__list"><a href="#" class="footer-col__link">About us</a></li>
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Shipping</a></li>
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Security Policy</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h3 class="footer-col__title">Extras</h3>
+            <ul class="footer-col__ul">
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Individual design</a></li>
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Individual size</a></li>
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Cooperation</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h3 class="footer-col__title">My account</h3>
+            <ul class="footer-col__ul">
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Order History</a></li>
+               <li class="footer-col__list"><a href="#" class="footer-col__link">Wish List</a></li>
+            </ul>
+         </div>
+         <div class="footer-col footer-social">
+            <div class="footer-logo">
+               <a href="#" class="logo__link">
+                  <svg class="footer-icon-logo icon-logo svg-logo-dims">
+                     <use xlink:href="svgSprite/sprite.svg#logo"></use>
+                  </svg>
+               </a>
+            </div>
+            <ul class="footer-col__social">
+               <li class="footer-col__list">
+                  <a href="#" class="footer-social__link" target="_blank">
+                     <svg class="icon service-icon footer-social-icon svg-inst-dims">
+                        <use xlink:href="svgSprite/sprite.svg#inst"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="footer-col__list">
+                  <a href="#" class="footer-social__link" target="_blank">
+                     <svg class="icon service-icon footer-social-icon svg-youtube-dims">
+                        <use xlink:href="svgSprite/sprite.svg#youtube"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="footer-col__list">
+                  <a href="#" class="footer-social__link" target="_blank">
+                     <svg class="icon service-icon footer-social-icon svg-pinterest-dims">
+                        <use xlink:href="svgSprite/sprite.svg#pinterest"></use>
+                     </svg>
+                  </a>
+               </li>
+            </ul>
+            <p class="footer-card">
+               <span>We accept:</span>
+               <img src="images/visa.png" alt="">
+               <img src="images/mastercard.png" alt="">
+            </p>
+         </div>
+      </div>
+   </div>
+</footer>
+
+
+
+<div class="section-search">
+   <div class="section-search__header">
+      <div class="container">
+         <form class="section-search__form" action="">
+            <svg class="icon section-search__icon  svg-search-dims">
+               <use xlink:href="svgSprite/sprite.svg#search"></use>
+            </svg>
+
+            <input type="text" class="section-search__input">
+         </form>
+         <button class="search-remove"></button>
+      </div>
+   </div>
+
+   <div class="section-search__result">
+      <div class="container">
+         <div class="section-search__wrapper">
+            <p class="section-search__result-info"><span class="section-search__result-count">4</span> results</p>
+            <button class="section-search__result-btn">View All</button>
+         </div>
+         <div class="products__wrapper">
+            <div class="products__item bestseller">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-1.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item bestseller">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-1.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item bestseller">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-1.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+            <div class="products__item bestseller">
+               <div class="products__wrapper-img">
+                  <div class="products__tags">
+                     <div class="products__tags-links">
+                        <span class="products__tags-span">SALE</span>
+                        <span class="products__tags-span">TOP</span>
+                        <span class="products__tags-span">NEW</span>
+                     </div>
+                     <button class="btn-heart" onclick="heartActive(this)">
+                        <svg class="icon svg-card-heart-dims">
+                           <use xlink:href="svgSprite/sprite.svg#card-heart"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <a href="#" class="products__item-link">
+                     <img class="products__img" src="images/product-1.jpg" aria-hidden="true" alt="">
+                  </a>
+               </div>
+               <div class="product__item-content">
+                  <div class="stars">
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                     <svg class="icon svg-star-dims">
+                        <use xlink:href="svgSprite/sprite.svg#star"></use>
+                     </svg>
+                  </div>
+                  <a href="#" class="product__item-text">
+                     White leather thin collar choker
+                  </a>
+                  <div class="product__item-prices">
+                     <div class="product__item-prices-wrapper">
+                        <p class="product__item-price">$ 200</p>
+                        <p class="product__item-price--last"><s>$ 300</s></p>
+                     </div>
+                     <span class="product__item-bonus">+5 bonus</span>
+                  </div>
+                  <div class="product__item-buy-wrapper">
+                     <button class="button product__item-buy">ADD TO CARD</button>
+                     <p class="product__item-buy-descr">Buy in 1 Click</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/jquery.inputmask.bundle.min.js"></script>
+<script src='js/swiper-bundle.min.js'></script>
+<script src='js/libs.min.js'></script>
+<script src="js/main.min.js"></script>
+
+<!-- 
+   1. Jquery
+   2. fancybox
+   3. inputMask
+   4. Swiper
+   5. Libs.js (Полифилл для свг, для правильного отображения свг в сафари)
+   6. main js
+ -->
+
+
+</body>
+</html>
